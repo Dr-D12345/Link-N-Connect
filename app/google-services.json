@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "54936219962",
+    "firebase_url": "https://brigade-929f9.firebaseio.com",
+    "project_id": "brigade-929f9",
+    "storage_bucket": "brigade-929f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54936219962:android:df4af9dc16c89204",
+        "android_client_info": {
+          "package_name": "com.google.sample.cloudvision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54936219962-5kih12f58d683v76otdusnrpkifr19cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBywDxBD9Ipxi0gs7k394U1-szq1TkkQrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.google.sample.cloudvision.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:textColor="#ffffff"
+        android:text="New Card"
+        android:height="180dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newCard"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/appBarLayout2"
+        android:layout_marginTop="53dp"
+        android:padding="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:height="180dp"
+        android:textColor="#ffffff"
+        android:text="Templates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Templates"
+        android:background="#5b9aa0"
+        android:padding="25dp"
+        android:layout_below="@+id/newCard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:height="180dp"
+        android:textColor="#ffffff"
+        android:text="Templates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="#ff6f69"
+        android:padding="25dp"
+        android:layout_below="@+id/Templates"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
