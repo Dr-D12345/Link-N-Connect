@@ -12,15 +12,22 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.testing.http.apache.MockHttpClient;
-
+import com.victor.loading.rotate.RotateLoading;
 
 
 public class AnalyzeActivity extends AppCompatActivity {
-
+private RotateLoading rl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_loading);
+        try{
+        rl = (RotateLoading) findViewById(R.id.rotateloading);
+        rl.start();
+        }catch(Error e){
+
+        }
         /*send pic to database */
         RequestQueue queue = Volley.newRequestQueue(this);
         String URL = " https://derekcardscanner.herokuapp.com/pic";
@@ -28,6 +35,11 @@ public class AnalyzeActivity extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
             System.out.println(response);
+                try{rl.stop();}catch (Error e){
+
+                }
+
+
             }
         }, new Response.ErrorListener() {
             @Override
