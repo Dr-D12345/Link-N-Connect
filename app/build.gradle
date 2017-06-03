@@ -26,6 +26,7 @@ dependencies {
 
     compile 'com.google.api-client:google-api-client-android:1.20.0' exclude module: 'httpclient'
     compile 'com.google.http-client:google-http-client-gson:1.20.0' exclude module: 'httpclient'
+
     compile 'com.google.firebase:firebase-core:10.2.6'
     compile 'com.google.firebase:firebase-storage:10.2.6'
     compile 'info.hoang8f:fbutton:1.0.5'
@@ -35,7 +36,7 @@ dependencies {
     compile 'com.victor:lib:1.0.4'
     compile 'com.google.apis:google-api-services-vision:v1-rev2-1.21.0'
     compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-
 }
 apply plugin: 'com.google.gms.google-services'
