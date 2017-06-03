@@ -2,6 +2,7 @@ package com.google.sample.cloudvision;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -13,6 +14,10 @@ import com.android.volley.toolbox.Volley;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.testing.http.apache.MockHttpClient;
 import com.victor.loading.rotate.RotateLoading;
+
+import java.lang.reflect.Array;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class AnalyzeActivity extends AppCompatActivity {
@@ -37,8 +42,25 @@ private RotateLoading rl;
             System.out.println(response);
                 try{rl.stop();}catch (Error e){
 
+
+                }
+                setContentView(R.layout.activity_analyze);
+                String a[] = response.split(",");
+                String Email="";
+                for(int i=0;i<a.length;i++){
+
+
+                    if(a[i].contains("@")){
+                        Email  =a[i];
+                        System.out.println(a[i]+": is an email. ");
+                    }else{
+                        System.out.println(a[i]+": is not an email. :(");
+                    }
+
                 }
 
+                TextView res = (TextView) findViewById(R.id.Response);
+                res.setText("Email: "+ Email);
 
             }
         }, new Response.ErrorListener() {
