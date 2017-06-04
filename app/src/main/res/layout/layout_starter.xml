@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ScrollView
@@ -10,7 +12,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
     <Button
+        android:drawableTop="@drawable/ic_camera"
         android:id="@+id/newCard"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -22,7 +26,9 @@
         android:text="New Card"
         android:textColor="#ffffff" />
 
+
     <Button
+        android:drawableTop="@drawable/ic_pages"
         android:textSize="20sp"
         android:id="@+id/Templates"
         android:layout_width="wrap_content"
@@ -37,10 +43,10 @@
         android:textColor="#ffffff" />
 
     <Button
-
+        android:drawableTop="@drawable/ic_gallery"
         android:textSize="20sp"
         android:minHeight="220dp"
-        android:id="@+id/button4"
+        android:id="@+id/Gallery"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
@@ -48,7 +54,7 @@
         android:layout_below="@+id/Templates"
         android:background="@color/colorAccent"
         android:padding="25dp"
-        android:text="Templates"
+        android:text="Gallery"
         android:textColor="#ffffff" />
         </RelativeLayout>
     </ScrollView>
