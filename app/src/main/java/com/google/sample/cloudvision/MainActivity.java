@@ -77,6 +77,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -86,78 +87,34 @@ import static com.google.sample.cloudvision.R.id.file;
 
 public class MainActivity extends AppCompatActivity {
 
+    public String mCurrentPhotoPath;
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int GALLERY_PERMISSIONS_REQUEST = 0;
     private static final int GALLERY_IMAGE_REQUEST = 1;
     public static final int CAMERA_PERMISSIONS_REQUEST = 2;
     public static final int CAMERA_IMAGE_REQUEST = 3;
-
-    Uri imageUri;
+    public  Uri mLocationForPhotos;
+  Uri imageUri;
     File cardPic;
-    private  File getOutputMediaFile(){
-        // To be safe, you should check that the SDCard is mounted
-        // using Environment.getExternalStorageState() before doing this.
-        File mediaStorageDir = new File(Environment.getExternalStorageDirectory()
-                + "/Android/data/"
-                + getApplicationContext().getPackageName()
-                + "/Files");
-
-        // This location works best if you want the created images to be shared
-        // between applications and persist after your app has been uninstalled.
-
-        // Create the storage directory if it does not exist
-        if (! mediaStorageDir.exists()){
-            if (! mediaStorageDir.mkdirs()){
-                return null;
-            }
-        }
-        // Create a media file name
-        String timeStamp = new SimpleDateFormat("ddMMyyyy_HHmm").format(new Date());
-        File mediaFile;
-
-        String mImageName="MI_"+ timeStamp +".jpg";
-        mediaFile = new File(mediaStorageDir.getPath() + File.separator + mImageName);
-        cardPic =mediaFile;
-        return mediaFile;
-    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==CAMERA_IMAGE_REQUEST){
            if( resultCode==RESULT_OK){
-               System.out.println("Image has been taken");
-               Bundle extras = data.getExtras();
-               Bitmap imageBitmap = (Bitmap) extras.get("data");
-                storeImage(imageBitmap);
-               try {
-                   Intent i = new Intent(this, AnalyzeActivity.class);
-                   i.putExtra("file", cardPic.getAbsolutePath());
-                   startActivity(i);
-               }catch (Error  e){
-                System.out.println(e);
-               }
+
+    if(imageUri!=null){
+        Intent i = new Intent(MainActivity.this, AnalyzeActivity.class);
+
+        i.putExtra("file",mCurrentPhotoPath);
+        System.out.println("Path: "+ mCurrentPhotoPath);
+        startActivity(i);
+    }
+
         }}
     }
 
-    private void storeImage(Bitmap image) {
-        File pictureFile = getOutputMediaFile();
-        if (pictureFile == null) {
-            Log.d(TAG,
-                    "Error creating media file, check storage permissions: ");// e.getMessage());
-            return;
-        }
-        try {
-            FileOutputStream fos = new FileOutputStream(pictureFile);
-            image.compress(Bitmap.CompressFormat.PNG, 90, fos);
 
-            fos.close();
-        } catch (FileNotFoundException e) {
-            Log.d(TAG, "File not found: " + e.getMessage());
-        } catch (IOException e) {
-            Log.d(TAG, "Error accessing file: " + e.getMessage());
-        }
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -217,12 +174,46 @@ public class MainActivity extends AppCompatActivity {
                 Manifest.permission.CAMERA)) {
 
            try {
-               Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-               startActivityForResult(intent, CAMERA_IMAGE_REQUEST);
+
+               // Create the File where the photo should go
+               File photoFile = null;
+               try {
+                   photoFile = createImageFile();
+               } catch (IOException ex) {
+                   // Error occurred while creating the File
+
+               }
+               Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+               if (photoFile != null) {
+                  imageUri = FileProvider.getUriForFile(this,
+                           "com.example.android.fileprovider",
+                           photoFile);
+                   takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                   startActivityForResult(takePictureIntent, CAMERA_IMAGE_REQUEST);
+
+
+               }
+
            }catch (NullPointerException ne){
                ne.printStackTrace();
            }
         }
+    }
+
+    private File createImageFile() throws IOException {
+        // Create an image file name
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageFileName = "JPEG_" + timeStamp + "_";
+        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        File image = File.createTempFile(
+                imageFileName,  /* prefix */
+                ".jpg",         /* suffix */
+                storageDir      /* directory */
+        );
+
+        // Save a file: path for use with ACTION_VIEW intents
+        mCurrentPhotoPath = image.getAbsolutePath();
+        return image;
     }
 
 

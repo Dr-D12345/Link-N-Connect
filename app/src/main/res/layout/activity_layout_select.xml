@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    tools:context="com.google.sample.cloudvision.layout_select"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+ <Button
+     android:background="@color/colorPrimary"
+     android:layout_width="wrap_content"
+     android:layout_height="120dp"
+     android:drawableBottom="@drawable/ic_networking"
+     android:padding="7dp"/>
+ <Space
+     android:layout_width="5dp"
+     android:layout_height="wrap_content" />
+ <Button
+     android:background="@color/fbutton_color_silver"
+     android:layout_width="wrap_content"
+     android:layout_height="120dp"
+     android:drawableBottom="@drawable/ic_job"
+     android:padding="7dp"/>
+ <Space
+     android:layout_width="5dp"
+     android:layout_height="wrap_content" />
+ <Button
+     android:background="@color/fbutton_color_silver"
+     android:layout_width="wrap_content"
+     android:layout_height="120dp"
+     android:drawableBottom="@drawable/ic_clients"
+     android:padding="7dp"/>
+</LinearLayout>
+
+ <Space
+     android:layout_below="@+id/layout1"
+     android:layout_width="wrap_content"
+     android:layout_height="10dp"
+     android:id="@+id/space1"/>
+ <LinearLayout
+
+     android:id="@+id/layout2"
+     android:layout_below="@+id/space1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:paddingLeft="50dp"
+     android:paddingRight="50dp">
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_networking"
+      android:padding="7dp"/>
+  <Space
+      android:layout_width="5dp"
+      android:layout_height="wrap_content" />
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_job"
+      android:padding="7dp"/>
+  <Space
+      android:layout_width="5dp"
+      android:layout_height="wrap_content" />
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_clients"
+      android:padding="7dp"/>
+ </LinearLayout>
+ <TextView
+     android:layout_below="@+id/layout1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textSize="16sp"
+     android:text="Premium"
+     android:textStyle="bold"
+     android:padding="10dp"
+     android:textAlignment="center"
+     android:id="@+id/premium"
+     android:textColor="#FFFFFF"
+     android:background="@color/fbutton_color_sun_flower"/>
+ <Space
+     android:layout_below="@id/layout2"
+     android:layout_width="wrap_content"
+     android:layout_height="10dp"
+     android:id="@+id/space2"/>
+ <LinearLayout
+     android:id="@+id/layout3"
+     android:layout_below="@+id/space2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:paddingLeft="50dp"
+     android:paddingRight="50dp">
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_networking"
+      android:padding="7dp"/>
+  <Space
+      android:layout_width="5dp"
+      android:layout_height="wrap_content" />
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_job"
+      android:padding="7dp"/>
+  <Space
+      android:layout_width="5dp"
+      android:layout_height="wrap_content" />
+  <Button
+      android:background="@color/fbutton_color_silver"
+      android:layout_width="wrap_content"
+      android:layout_height="120dp"
+      android:drawableBottom="@drawable/ic_clients"
+      android:padding="7dp"/>
+ </LinearLayout>
+
+</RelativeLayout>
