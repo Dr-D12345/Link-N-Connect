@@ -157,21 +157,21 @@ private RotateLoading rl;
         Bitmap myBitmap = BitmapFactory.decodeFile(FilePath);
         Button contacts = (Button) findViewById(R.id.addtocontacts);
         Button emailBack = (Button) findViewById(R.id.emailback);
-
-
-        String test[] = a[0].split("\n");
+        for(int i=0; i<a.length;i++){
+            if(a[i]=="\"")
+                a[i]="";
+        }
+        String test[] = a[0].split("\\n");
         ImageView img =(ImageView) findViewById(R.id.image);
 
         img.setImageBitmap(myBitmap);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_singlechoice,test);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_singlechoice,a);
 
         final AutoCompleteTextView EmailInput = (AutoCompleteTextView) findViewById(R.id.EMAIL);
         final AutoCompleteTextView FNAMEInput = (AutoCompleteTextView) findViewById(R.id.FNAME);
         final AutoCompleteTextView LNAMEInput = (AutoCompleteTextView) findViewById(R.id.FNAME);
-        EmailInput.setText("derekjonp@gmail.com");
-        FNAMEInput.setText("Derek");
-        FNAMEInput.setText("Pastor");
 
+        EmailInput.setText(Email);
         EmailInput.setThreshold(1);
         EmailInput.setAdapter(adapter);
         EmailInput.setText(Email);

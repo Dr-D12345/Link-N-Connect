@@ -71,6 +71,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.lang.reflect.Type;
+import java.net.Inet4Address;
 import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -94,27 +95,29 @@ public class MainActivity extends AppCompatActivity {
     private static final int GALLERY_IMAGE_REQUEST = 1;
     public static final int CAMERA_PERMISSIONS_REQUEST = 2;
     public static final int CAMERA_IMAGE_REQUEST = 3;
-    public  Uri mLocationForPhotos;
+
   Uri imageUri;
-    File cardPic;
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==CAMERA_IMAGE_REQUEST){
            if( resultCode==RESULT_OK){
 
-    if(imageUri!=null){
-        Intent i = new Intent(MainActivity.this, AnalyzeActivity.class);
+                if(imageUri!=null){
+                    Intent i = new Intent(MainActivity.this, AnalyzeActivity.class);
 
-        i.putExtra("file",mCurrentPhotoPath);
-        System.out.println("Path: "+ mCurrentPhotoPath);
-        startActivity(i);
-    }
-
+                    i.putExtra("file",mCurrentPhotoPath);
+                    System.out.println("Path: "+ mCurrentPhotoPath);
+                    startActivity(i);
+                }
         }}
+        if(requestCode==GALLERY_IMAGE_REQUEST){
+            if(resultCode==RESULT_OK){
+                imageUri = data.getData();
+
+            }
+        }
     }
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -138,7 +141,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+        Button temp= (Button) findViewById(R.id.Templates);
+        temp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent u = new Intent(MainActivity.this, layout_select.class);
+                startActivity(u);
+            }
+        });
 
     }
 
