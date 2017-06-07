@@ -169,12 +169,13 @@ private RotateLoading rl;
 
         final AutoCompleteTextView EmailInput = (AutoCompleteTextView) findViewById(R.id.EMAIL);
         final AutoCompleteTextView FNAMEInput = (AutoCompleteTextView) findViewById(R.id.FNAME);
-        final AutoCompleteTextView LNAMEInput = (AutoCompleteTextView) findViewById(R.id.FNAME);
+        final AutoCompleteTextView LNAMEInput = (AutoCompleteTextView) findViewById(R.id.LNAME);
 
-        EmailInput.setText(Email);
+        EmailInput.setText("derekjonp@gmail.com");
+        FNAMEInput.setText("Derek");
+        LNAMEInput.setText("Pastor");
         EmailInput.setThreshold(1);
         EmailInput.setAdapter(adapter);
-        EmailInput.setText(Email);
         FNAMEInput.setThreshold(1);
         FNAMEInput.setAdapter(adapter);
         LNAMEInput.setThreshold(1);
@@ -198,7 +199,7 @@ private RotateLoading rl;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
-                intent.setType("text/plain");
+                intent.setData(Uri.parse("mailto:"));
                 intent.putExtra(Intent.EXTRA_EMAIL,  new String[] {EmailInput.getText().toString()});
                 intent.putExtra(Intent.EXTRA_SUBJECT,"So nice metting you!");
                 intent.putExtra(Intent.EXTRA_TEXT, "Thank you so much for taking the time to talk yesterday. It was a pleasure to learn even more about \n [Your Company]\n and how you approach [Industry] with innovative \n [strategy]. I’m very excited about the opportunity to explore a potential career with the \n[specific team].");
