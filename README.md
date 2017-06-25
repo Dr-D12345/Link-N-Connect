@@ -15,7 +15,11 @@ The Server has a listener listening for a picture request. From there it downloa
 
 
 # References
-Http Request [AnalyzeActivity.java](https://github.com/Dr-D12345/Link-N-Connect/blob/master/app/src/main/java/com/google/sample/cloudvision/AnalyzeActivity.java)
+**Http Request** [AnalyzeActivity.java](https://github.com/Dr-D12345/Link-N-Connect/blob/master/app/src/main/java/com/google/sample/cloudvision/AnalyzeActivity.java)
+**Node js URL** [https://derekcardscanner.herokuapp.com/](https://derekcardscanner.herokuapp.com/)
+
+# TO-DO
+
 
 
 
