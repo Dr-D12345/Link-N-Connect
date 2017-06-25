@@ -14,7 +14,8 @@ The Server has a listener listening for a picture request. From there it downloa
 *BE WARNED RECENTLY THE API HAS BEEN TURNED OFF AND WILL NOT BE RETURNING API RESULTS*
 
 
-
+# References
+Http Request [AnalyzeActivity.java](https://github.com/Dr-D12345/Link-N-Connect/blob/master/app/src/main/java/com/google/sample/cloudvision/AnalyzeActivity.java)
 
 
 
