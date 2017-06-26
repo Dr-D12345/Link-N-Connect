@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-vision/v1-rev2-1.21.0/4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85/google-api-services-vision-v1-rev2-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-api-services-vision-v1-rev2-1.21.0_019c2db4ddabf4a23aa0856f2aebd8f4a5da4abd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/9bde2abbb5519e3ae8b975dce3322de04b728ab7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_adeb1a2bb7e3410ffd7a31222af3efd4b427ce54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/db0c3dbc6751643e7aeb1d37728144979548c1dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_2653f3fc476f83799869b1c85246dc0bf4f401ae.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="587ae4ee9818ef3071f3e412cfd5f7d917ac0c0c">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_49c58ef46112cd7eaea661eb66c6c5d2ddecc2de/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/7a48549be0faf5ec49f2f69c53d8b2dfb4da4aa6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_615823ec2cb4961bc6b3d695349355a087a7f1f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_f465223e116ddf13c6203c80f8661b29b0024800.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/49089cdd63a718338cea49d843156fd7eaee4814/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_6ef4167635a0e999f4ac0dadb3f94e8aab380feb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/gson-2.1_a013504f2059bc5ac02eb20518289dcfd5c7a7d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/58e29a723b578da2379efaa70d4483e9bfa7dadf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_8d0497e9c5b2ee159a86aa63931865b8224e4846.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_8ab959d9332cf402ba6eaf4c9d3fd52f7babd0c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.21.0/8ce17bdd15fff0fd8cf359757f29e778fc7191ad/google-http-client-jackson2-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ce17bdd15fff0fd8cf359757f29e778fc7191ad">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.21.0_2134873df7cc857a341de323d9e566f120de836b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.21.0/16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc/google-api-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-api-client-1.21.0_c5104102a65b06a97951cecfb1869841f578b111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/b2d942d14c2a34dfc4d6e51f43a3a4e8b20e2943/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba4defc8cb4ed5b90b8ef71602722cdeebe507cd">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_2a151eaf72723684fdc59999aa45ee53b139b2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/dcb7daaeb373cdb3dae25f582141c20b6906e73e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_d6b02b7205cede8ca355fcfdb029a0e84bf385f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/2d392b8a4b36d37d2e706b1d271b6012367a684e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3dbaff65d26258306561d545f88d6712ac41dd46">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_094e10b9194f5bb9a92b8fdcb6f68449ee1cc109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/e6653c16c078745bf2c0bd7b14c2882f43889cb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_b7078d7105645f6ed0ef730fbb49125f9230372b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.20.0_180863eee80de040fe8100fe6ca566edcc4e0441.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.21.0/42631630fe1276d4d6d6397bb07d53a4e4fec278/google-http-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42631630fe1276d4d6d6397bb07d53a4e4fec278">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-http-client-1.21.0_53f9faa2adf7f181d2bb193a19a2a4fa19534464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/bfb5c4d9219d6906f9c799d421650624d071aa4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_ecd92836eddc0441ccf91d3085554445caababeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/590af78fc0d981c45d6539e85b5ce38fc8ddadcd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b534207608aa1c205263d7426e634872ae34f08">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_fbbe891eb6cc9481c8262ec82f92da4a8b961b7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/af88052ff6aebd62299e3acdd898a3c944cf08e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_45408d404a084212ca4030eb8e06aa7781489dec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/d33aea05afa9d608152d1bac1a0e04db2ad62264/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_faaa989224f9255c3203241e5a960c1d146883ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.21.0/61ec42bbfc51aafde5eb8b4923c602c5b5965bc2/google-oauth-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61ec42bbfc51aafde5eb8b4923c602c5b5965bc2">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.21.0_65f9f4c14caaa8f4f1d36aedf7d9277ce71b11f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/81c49e61ae7830fbf95e2a435e25aa4a76cb1ba1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_13a9a487410a19e5ded806298fa90f106c59363c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/43ffac900c369dc83e299b11c8a5813cc93b4110/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_1b5255cc1efd98f9f06cfa3ae0d62455e6b69992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/146511a0f02cfaba9a595ac88c74117607ff8163/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_2d2ec2932fb34280c745b91331bd23b0dcc9084d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_bbbcbe65fc2a7feac49f97e7580a5e3897b90475.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/d75ac192e60ed0febf79cbf75cd0a6a9e93ca241/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_e30594b7aa6825e0d38b0303e159dc4b28418945.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.20.0_e35fd83deb907310c88861fd511477d302719458.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/87062bef19c563a4cfbeb57b7ce32bc144374fd0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_6d647eb1758d2e7aa93813e2340d7a090ca41190.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_08eeaf76f1f3adfbe9ade5d2e85034135e71cda5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/fda1e97a904d0d352542a8738ac2e8f252dec379/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27c6f134320940501b417f68d8e6aa5d4675f651">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_47a8e78877a9080437dc6d4919bda8b0116372b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/d026cf3ec614421ec1ba606f9adec4f71977c920/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_e99c462f42ceb08e64df3f1cb7117b1f2f71af09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/8d1afaaf98e883c381969542b6d1548b6aa8828d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_abd6d965bd943c18c4a4a61d53eecede9f502037.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/95d7988d4f12d3f3d027ce990cba1ddc34c0b672/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_c0af6b56b09e2b7514dbe928702cf8a89c9c9f16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/0e5784a0f5e8907974a6045d60ccd958135a5dee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_8bdd0dfff4b61ac34b3f4950423e5f1d123bc003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_4e4fdfe3eeb1c8f539a8a252407c9d5f43ed94eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.20.0/9204765f39000f6109c927ac66c7963bf9c7df19/google-http-client-gson-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/google-http-client-gson-1.20.0_69219353eedcedfe8585583e77952c10b28f1cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/206f2c1d562bb9a38a536ecf8e1394c41ee80eb2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_e7263e74d0ae50f7f8d64148acd8525c71072484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/guava-jdk5-17.0_fd5c8ff8e2d8ea32c230af879f50f6f85bc7663f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/derekpastor/.android/build-cache/a578b1bbc3069bd3a7272a7cc65925969f4c53e4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="/Users/derekpastor/Documents/derekcardscanner/app/build/intermediates/pre-dexed/debug/classes_a2dab199b60a6272f6625807b0a69924fc27a780.jar" />
+    </item>
+
+</items>
