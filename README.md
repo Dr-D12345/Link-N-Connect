@@ -1,5 +1,5 @@
 
-![LOGO](https://github.com/Dr-D12345/Link-N-Connect/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![LOGO](https://github.com/Dr-D12345/Link-N-Connect/blob/master/AndroidApp/app/src/main/res/mipmap-hdpi/ic_launcher.png)
 # Link'N Connect
 This Android app uses https request and Google Camera Api's OCR function to analyze bussiness cards in search of emails, names and other text.
 
